@@ -27,7 +27,7 @@
                <li class="nav-item">
                     <a class="nav-link" href="{{ route ('third' , ['gps_tracker','asset','index']) }}">
                          <span class="nav-icon">
-                              <iconify-icon icon="mingcute:home-3-line"></iconify-icon>
+                              <iconify-icon icon="mdi:server"></iconify-icon>
                          </span>
                          <span class="nav-text"> Asset </span>
                     </a>
@@ -35,7 +35,7 @@
                <li class="nav-item">
                     <a class="nav-link" href="{{ route ('third' , ['gps_tracker','consumeable','index']) }}">
                          <span class="nav-icon">
-                              <iconify-icon icon="mingcute:home-3-line"></iconify-icon>
+                              <iconify-icon icon="mingcute:inventory-line"></iconify-icon>
                          </span>
                          <span class="nav-text"> Consumeables </span>
                     </a>
@@ -43,30 +43,30 @@
                <li class="nav-item">
                     <a class="nav-link" href="{{ route ('third' , ['gps_tracker','depresiasi','index']) }}">
                          <span class="nav-icon">
-                              <iconify-icon icon="mingcute:home-3-line"></iconify-icon>
+                              <iconify-icon icon="mingcute:chart-line-line"></iconify-icon>
                          </span>
                          <span class="nav-text"> Depresiasi </span>
                     </a>
                </li>
                <li class="nav-item">
-                    <a class="nav-link" href="{{ route ('third' , ['gps_tracker','important_note','index']) }}">
+                    <a class="nav-link" href="{{ route ('third' , ['gps_tracker','important','index']) }}">
                          <span class="nav-icon">
-                              <iconify-icon icon="mingcute:home-3-line"></iconify-icon>
+                              <iconify-icon icon="mingcute:warning-fill"></iconify-icon>
                          </span>
-                         <span class="nav-text"> Important to note </span>
+                         <span class="nav-text"> Important</span>
                     </a>
                </li>
                <li class="nav-item">
                     <a class="nav-link" href="{{ route ('third' , ['gps_tracker','pakar_ai','index']) }}">
                          <span class="nav-icon">
-                              <iconify-icon icon="mingcute:home-3-line"></iconify-icon>
+                              <iconify-icon icon="mdi:robot-outline"></iconify-icon>
                          </span>
                          <span class="nav-text"> Pakar AI </span>
                     </a>
                </li>
                {{-- end custom menu --}}
 
-               <li class="menu-title">Menu...</li>
+               {{-- <li class="menu-title">Menu...</li>
 
                <li class="nav-item">
                     <a class="nav-link" href="{{ route('any', 'index') }}">
@@ -378,7 +378,7 @@
                          </span>
                          <span class="nav-text"> Disable Item </span>
                     </a>
-               </li>
+               </li> --}}
           </ul>
      </div>
 </div>

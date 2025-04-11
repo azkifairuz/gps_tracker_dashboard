@@ -1,77 +1,44 @@
-@extends('layouts.vertical', ['subtitle' => 'Basic Tables'])
+@extends('layouts.vertical', ['subtitle' => 'Depresiasi'])
 
 @section('content')
-@include('layouts.partials/page-title', ['title' => 'Tables', 'subtitle' => 'Basic Tables'])
+@include('layouts.partials/page-title', ['title' => 'Tables', 'subtitle' => 'Depresiasi'])
 
 
 <div class="card">
-    <div class="card-header">
-        <h5 class="card-title">
-            Always responsive
-        </h5>
-        <p class="card-subtitle">
-            Across every breakpoint, use <code>.table-responsive</code> for
-            horizontally scrolling tables.
-        </p>
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h4 class="card-title mb-0">Depresiasi</h4>
     </div>
 
-    <div class="card-body">
+    <div class="card-body pb-1">
         <div class="table-responsive">
-            <table class="table">
+            <table class="table table-hover mb-0 table-centered">
                 <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                        <th scope="col">Heading</th>
-                    </tr>
+                    <th class="py-1">No</th>
+                    <th class="py-1">Id Asset</th>
+                    <th class="py-1">Asset Name</th>
+                    <th class="py-1">Times</th>
+                    <th class="py-1">Loads</th>
+                    <th class="py-1">Activity</th>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
-                        <td>Cell</td>
+                        <td>3100</td>
+                        <td>
+                            Total station GM 55
+                        </td>
+                        <td>
+                           
+                        </td>
+                        <td></td>
+                        <td>
+                            
+                        </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
+
 @endsection

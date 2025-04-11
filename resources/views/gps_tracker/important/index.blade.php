@@ -1,12 +1,12 @@
-@extends('layouts.vertical', ['subtitle' => 'Consumeables'])
+@extends('layouts.vertical', ['subtitle' => 'Important'])
 
 @section('content')
-@include('layouts.partials/page-title', ['title' => 'Tables', 'subtitle' => 'Consumeables'])
+@include('layouts.partials/page-title', ['title' => 'Tables', 'subtitle' => 'Important'])
 
 
 <div class="card">
     <div class="card-header d-flex justify-content-between align-items-center">
-        <h4 class="card-title mb-0">Consumables</h4>
+        <h4 class="card-title mb-0">Important</h4>
     </div>
 
     <div class="card-body pb-1">
